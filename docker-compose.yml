@@ -1,0 +1,6 @@
+﻿services:
+  efcoretestapi:
+    image: efcoretestapi
+    build:
+      context: .
+      dockerfile: EFCoreTestApi/Dockerfile
