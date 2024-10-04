@@ -1,11 +1,13 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EFCoreTestApi", "EFCoreTestApi\EFCoreTestApi.csproj", "{6BDDD224-22C6-4802-94DB-2521EB94E90A}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Manager.Api", "Manager.Api\Manager.Api.csproj", "{6BDDD224-22C6-4802-94DB-2521EB94E90A}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{1FCE4303-E40F-4411-A1CE-967F80CABF5D}"
 	ProjectSection(SolutionItems) = preProject
 		docker-compose.yml = docker-compose.yml
 	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Manager.Infrastructure", "Manager.Infrastructure\Manager.Infrastructure.csproj", "{81580648-0000-4628-8061-8245B001B6CA}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -17,5 +19,9 @@ Global
 		{6BDDD224-22C6-4802-94DB-2521EB94E90A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6BDDD224-22C6-4802-94DB-2521EB94E90A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6BDDD224-22C6-4802-94DB-2521EB94E90A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{81580648-0000-4628-8061-8245B001B6CA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{81580648-0000-4628-8061-8245B001B6CA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{81580648-0000-4628-8061-8245B001B6CA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{81580648-0000-4628-8061-8245B001B6CA}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
